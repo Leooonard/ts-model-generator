@@ -1,0 +1,26 @@
+{
+  "name": "ts-model-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dest/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leooonard/ts-model-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leooonard/ts-model-generator/issues"
+  },
+  "homepage": "https://github.com/Leooonard/ts-model-generator#readme",
+  "devDependencies": {
+    "@types/node": "^9.4.0",
+    "ts-simple-ast": "^6.7.0",
+    "typescript": "^2.6.2"
+  }
+}
