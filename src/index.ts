@@ -7,7 +7,6 @@ import * as fs from 'fs';
 const ast = new Ast();
 const fileName = process.argv[2];
 const sourceFilePath = Path.join(fileName);
-console.log(sourceFilePath);
 const sourceFile = ast.addExistingSourceFile(sourceFilePath);
 const interfaces = sourceFile.getInterfaces();
 
@@ -21,7 +20,7 @@ interfaces.forEach(interfaceItem => {
     });
 });
 
-(sourceFile as SourceFile).saveSync();
+sourceFile.saveSync();
 
 console.log('转换契约文件成功');
 process.exit(0);
